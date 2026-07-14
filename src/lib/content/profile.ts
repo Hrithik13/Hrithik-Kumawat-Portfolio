@@ -1,0 +1,56 @@
+export const profile = {
+  name: "Hrithik Kumawat",
+  siteName: "Hrithik Kumawat | Portfolio",
+  role: "Business Analyst",
+  yearsExperience: "3+",
+  location: "Udaipur, Rajasthan, India",
+  relocationCities: [
+    "Ahmedabad",
+    "Rajasthan",
+    "Noida",
+    "Gurugram",
+    "Pune",
+    "Bangalore",
+    "Mumbai",
+  ],
+  email: "hrithikkumawat13@gmail.com",
+  // TODO: replace with your real LinkedIn profile URL.
+  linkedin: "linkedin.com/in/hrithik-kumawat-b767bb148",
+  linkedinUrl: "https://linkedin.com/in/hrithik-kumawat-b767bb148/",
+  // TODO: replace with your real GitHub profile URL.
+  github: "GitHub",
+  githubUrl: "https://github.com/Hrithik13",
+  medium: "Medium",
+  availability: "Actively Seeking Opportunities",
+  preferredRoles: [
+    "Business Analyst",
+    "Technical Business Analyst",
+    "Data Analyst",
+    "QA Analyst",
+  ],
+  heroHeadlineLines: [
+    "Turning Business",
+    "Problems into",
+    "Data-Driven Solutions",
+  ],
+  heroSubtext:
+    "Business Analyst with 3+ years of experience delivering business analysis, data analytics, ETL validation, SQL reporting, and quality assurance solutions.",
+  heroTags: ["Business Analysis", "Data Analytics", "Quality Assurance"],
+  bio: "Business Analyst with 3+ years of experience in enterprise IT, specializing in requirements analysis, stakeholder collaboration, SQL-based data validation, quality assurance, and business process improvement. Experienced in translating business requirements into functional solutions through BRD, FRD, SRS documentation, user stories, requirement walkthroughs, UAT support, and cross-functional collaboration. Passionate about solving business problems through structured analysis, data-driven decision making, and continuous improvement.",
+  bioTags: [
+    "Business Analysis",
+    "Requirements Analysis",
+    "SQL",
+    "Data Validation",
+    "Quality Assurance",
+    "Power BI",
+    "Stakeholder Collaboration",
+    "Agile",
+  ],
+  education: {
+    degree: "Bachelor of Technology (CSE)",
+    institution: "B.K. Birla Institute of Engineering & Technology, Pilani",
+    period: "Aug 2017 – Jul 2021",
+  },
+  footerTagline: "Precision in every byte.",
+} as const;
