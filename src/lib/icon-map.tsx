@@ -34,6 +34,11 @@ import {
   X,
   ArrowRight,
   Eye,
+  Clock,
+  Cpu,
+  Sparkles,
+  Package,
+  Image as ImageIcon,
   type LucideIcon,
 } from "lucide-react";
 
@@ -73,6 +78,11 @@ export const iconMap: Record<string, LucideIcon> = {
   x: X,
   "arrow-right": ArrowRight,
   eye: Eye,
+  clock: Clock,
+  cpu: Cpu,
+  sparkles: Sparkles,
+  package: Package,
+  image: ImageIcon,
 };
 
 export function getIcon(name: string): LucideIcon {

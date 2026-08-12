@@ -13,13 +13,13 @@ export const profile = {
     "Bangalore",
     "Mumbai",
   ],
-  email: "hrithikkumawat13@gmail.com",
+  email: "your.email@example.com",
   // TODO: replace with your real LinkedIn profile URL.
-  linkedin: "linkedin.com/in/hrithik-kumawat-b767bb148",
-  linkedinUrl: "https://linkedin.com/in/hrithik-kumawat-b767bb148/",
+  linkedin: "linkedin.com/in/hrithik-kumawat",
+  linkedinUrl: "https://linkedin.com/in/hrithik-kumawat",
   // TODO: replace with your real GitHub profile URL.
   github: "GitHub",
-  githubUrl: "https://github.com/Hrithik13",
+  githubUrl: "https://github.com/your-username",
   medium: "Medium",
   availability: "Actively Seeking Opportunities",
   preferredRoles: [
