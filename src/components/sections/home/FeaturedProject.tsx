@@ -18,12 +18,13 @@ export function FeaturedProject() {
 
         <Reveal delay={0.08}>
           <Card className="mt-10 grid grid-cols-1 lg:grid-cols-2 overflow-hidden" hover>
-            <div className="relative w-full aspect-[16/10] lg:aspect-auto bg-surface-container-high">
+            <div className="relative w-full aspect-video bg-surface-container-high">
               <Image
                 src={heroShot.src}
                 alt={`Grimoire — ${heroShot.label}`}
                 fill
-                className="object-cover object-top"
+                sizes="(min-width: 1024px) 50vw, 100vw"
+                className="object-contain"
               />
             </div>
             <div className="p-8 sm:p-10 flex flex-col justify-center">
