@@ -1,7 +1,7 @@
 import { Hero } from "@/components/sections/home/Hero";
 import { TechProficiency } from "@/components/sections/home/TechProficiency";
 import { Specializations } from "@/components/sections/home/Specializations";
-import { ProjectsComingSoon } from "@/components/sections/home/ProjectsComingSoon";
+import { FeaturedProject } from "@/components/sections/home/FeaturedProject";
 import { CtaBanner } from "@/components/ui/CtaBanner";
 import { Button } from "@/components/ui/Button";
 import { Icon } from "@/components/ui/Icon";
@@ -13,7 +13,7 @@ export default function Home() {
       <Hero />
       <TechProficiency />
       <Specializations />
-      <ProjectsComingSoon />
+      <FeaturedProject />
       <CtaBanner
         title="Let's Build Better Solutions Together"
         description="Currently seeking high-impact opportunities in Business Analysis, Data Strategy, and Software Quality Assurance."
