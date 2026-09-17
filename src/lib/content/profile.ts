@@ -13,7 +13,7 @@ export const profile = {
     "Bangalore",
     "Mumbai",
   ],
-  email: "your.email@example.com",
+  email: "hrithikkumawat13@gmail.com",
   // TODO: replace with your real LinkedIn profile URL.
   linkedin: "linkedin.com/in/hrithik-kumawat",
   linkedinUrl: "https://linkedin.com/in/hrithik-kumawat",
