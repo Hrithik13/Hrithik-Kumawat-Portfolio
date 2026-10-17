@@ -103,9 +103,9 @@ export const grimoireProject = {
     },
   ] satisfies ProjectScreenshot[],
   download: {
-    path: "/downloads/grimoire/Grimoire-Setup-1.0.0.exe",
-    fileName: "Grimoire-Setup-1.0.0.exe",
-    platform: "Windows",
-    sizeLabel: "~88 MB",
-  } satisfies DownloadAsset,
+  path: "https://github.com/Hrithik13/Hrithik-Kumawat-Portfolio/releases/download/grimoire-v1.0.0/Grimoire.Setup.1.0.0.exe",
+  fileName: "Grimoire-Setup-1.0.0.exe",
+  platform: "Windows",
+  sizeLabel: "~99 MB",
+} satisfies DownloadAsset,
 };
